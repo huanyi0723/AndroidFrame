@@ -1,0 +1,307 @@
+16:27:59.490 [Worker-59] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.2 with options {phase=BUILD}
+16:27:59.491 [Worker-59] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 45 annotations on 48 elements
+16:27:59.511 [Worker-59] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder D:\Github\AndroidFrame\AndroidBaseCoreDemo: D:\Github\AndroidFrame\AndroidBaseCoreDemo\AndroidManifest.xml
+16:27:59.512 [Worker-59] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.lifeix.androidbasecoredemo, componentQualifiedNames=[com.lifeix.androidbasecoredemo.MainActivity_, com.lifeix.androidbasecoredemo.activity.SimpleActivity_, com.lifeix.androidbasecoredemo.activity.SubActivity_, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_, com.lifeix.androidbasecoredemo.activity.StringRequestActivity_, com.lifeix.androidbasecoredemo.service.ReptileService_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=com.lifeix.androidbasecoredemo.DemoApplication_, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=21]
+16:27:59.513 [Worker-59] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.lifeix.androidbasecoredemo.R
+16:27:59.515 [Worker-59] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+16:27:59.527 [Worker-59] INFO  o.a.p.ModelValidator:42 - Validating elements
+16:27:59.528 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+16:27:59.528 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+16:27:59.529 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+16:27:59.529 [Worker-59] WARN  o.a.h.AnnotationHelper:126 - The component PictureContentProvider_ is not registered in the AndroidManifest.xml file.
+16:27:59.529 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+16:27:59.530 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+16:27:59.530 [Worker-59] WARN  o.a.h.AnnotationHelper:126 - The component DownloadService_ is not registered in the AndroidManifest.xml file.
+16:27:59.530 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:27:59.530 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+16:27:59.531 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+16:27:59.531 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+16:27:59.531 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [textView, button, webView, subtitle, btn_custom, seekBar, title, txtLabel, textView, imageView, lsvContacts]
+16:27:59.533 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with FromHtmlHandler: [textView]
+16:27:59.533 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [void download() , void loadImage() , void exit() , void queryNote() , void jump() , void toDownlaod() , void vg_title() , void toSub() , void excuteGsonRequest() , void btn_string_request() , void customClick() , void insertDb() ]
+16:27:59.535 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void onItemClicked(java.lang.String) ]
+16:27:59.535 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ItemSelectHandler: [public void onItemSelected(boolean, java.lang.String) ]
+16:27:59.536 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [public void lsv_contacts(java.lang.String) ]
+16:27:59.536 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [app_name, app_name, defaultLabel, title]
+16:27:59.537 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [htmlCotent]
+16:27:59.537 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimension, fontsize]
+16:27:59.537 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimensionPix, fontsizePix]
+16:27:59.538 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimensionPix2, fontsizePix2]
+16:27:59.538 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [someColor, backgroundColor]
+16:27:59.539 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [title, msg]
+16:27:59.539 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [manager]
+16:27:59.539 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [application, application, application, application, application, application, application, application]
+16:27:59.540 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+16:27:59.540 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuItemHandler: [menuSettings]
+16:27:59.540 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [void onMenuSettings() ]
+16:27:59.541 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context, context, activity, service, myActivity]
+16:27:59.541 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with NonConfigurationInstanceHandler: [manager]
+16:27:59.542 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [user, user]
+16:27:59.542 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [comeFrom, comeFromParam]
+16:27:59.542 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with BeforeTextChangeHandler: [void beforeTextChange(android.widget.TextView, java.lang.CharSequence, int, int, int) ]
+16:27:59.543 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [void onTextChange(android.widget.TextView, java.lang.CharSequence) , void onTextChange(java.lang.CharSequence, android.widget.TextView, int, int, int) , void onTextChange() , void onTextChange(android.widget.TextView) ]
+16:27:59.543 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with AfterTextChangeHandler: [void afterTextChange(android.text.Editable, android.widget.TextView) ]
+16:27:59.543 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarProgressChangeHandler: [void onProgressChanged(android.widget.SeekBar, int, boolean) ]
+16:27:59.544 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStartHandler: [void onStartTrackingTouch(android.widget.SeekBar) ]
+16:27:59.544 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStopHandler: [void onStopTrackingTouch(android.widget.SeekBar) ]
+16:27:59.545 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ReceiverHandler: [protected void onBroadcastReceiverAction_Click(android.content.Intent) ]
+16:27:59.545 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with OnActivityResultHandler: [void onActivityResult(int, android.content.Intent) , void onActivityResultDetails(int) ]
+16:27:59.545 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [resultNumber]
+16:27:59.546 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [void afterInject() , void afterInject() ]
+16:27:59.546 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with AfterExtrasHandler: [void afterExtras() ]
+16:27:59.546 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void afterViews() , void init() , void afterViews() , void afterViews() , void afterViews() , void afterViews() , void afterViews_1() ]
+16:27:59.547 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [void excuteInUIThread() , void showWebViewContent(java.lang.String) , void showListView() , void refreshInfo(java.lang.String) ]
+16:27:59.547 [Worker-59] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [void someSequentialBackgroundTask(int) , void queryNote() , void loadDataFromDB() , void doInBackgroundAfterTwoSeconds() ]
+16:27:59.548 [Worker-59] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+16:27:59.548 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+16:27:59.548 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EActivityHandler: [com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+16:27:59.550 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+16:27:59.551 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+16:27:59.551 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+16:27:59.552 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:27:59.552 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+16:27:59.552 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+16:27:59.553 [Worker-59] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+16:27:59.553 [Worker-59] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+16:27:59.558 [Worker-59] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 15
+16:27:59.558 [Worker-59] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+16:27:59.559 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_
+16:27:59.561 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SimpleActivity_
+16:27:59.565 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.StringRequestActivity_
+16:27:59.568 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SubActivity_
+16:27:59.571 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.DemoApplication_
+16:27:59.573 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.MainActivity_
+16:27:59.576 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.CustomButton_
+16:27:59.579 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.TitleWithSubtitle_
+16:27:59.581 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.fragment.SimpleFragment_
+16:27:59.585 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.adapter.ListViewAdapter_
+16:27:59.587 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.provider.PictureContentProvider_
+16:27:59.590 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.DownloadService_
+16:27:59.592 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.ReptileService_
+16:27:59.594 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.bean.User_
+16:27:59.595 [Worker-59] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver_
+16:27:59.597 [Worker-59] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 106 ms], [Generate Sources = 39 ms], [Validate Annotations = 21 ms], [Extract Annotations = 20 ms], [Find R Classes = 14 ms], [Process Annotations = 10 ms], [Extract Manifest = 1 ms], 
+16:27:59.597 [Worker-59] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+16:28:44.571 [Worker-5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.2 with options {phase=BUILD}
+16:28:44.659 [Worker-5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 45 annotations on 48 elements
+16:28:44.795 [Worker-5] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder D:\Github\AndroidFrame\AndroidBaseCoreDemo: D:\Github\AndroidFrame\AndroidBaseCoreDemo\AndroidManifest.xml
+16:28:44.800 [Worker-5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.lifeix.androidbasecoredemo, componentQualifiedNames=[com.lifeix.androidbasecoredemo.MainActivity_, com.lifeix.androidbasecoredemo.activity.SimpleActivity_, com.lifeix.androidbasecoredemo.activity.SubActivity_, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_, com.lifeix.androidbasecoredemo.activity.StringRequestActivity_, com.lifeix.androidbasecoredemo.service.ReptileService_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=com.lifeix.androidbasecoredemo.DemoApplication_, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=21]
+16:28:44.802 [Worker-5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.lifeix.androidbasecoredemo.R
+16:28:44.827 [Worker-5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+16:28:44.856 [Worker-5] INFO  o.a.p.ModelValidator:42 - Validating elements
+16:28:44.857 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+16:28:44.859 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+16:28:44.862 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+16:28:44.863 [Worker-5] WARN  o.a.h.AnnotationHelper:126 - The component PictureContentProvider_ is not registered in the AndroidManifest.xml file.
+16:28:44.864 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+16:28:44.864 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+16:28:44.865 [Worker-5] WARN  o.a.h.AnnotationHelper:126 - The component DownloadService_ is not registered in the AndroidManifest.xml file.
+16:28:44.865 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:28:44.868 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+16:28:44.869 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+16:28:44.871 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+16:28:44.872 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [button, webView, imageView, btn_custom, subtitle, txtLabel, title, textView, seekBar, lsvContacts, textView]
+16:28:44.883 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with FromHtmlHandler: [textView]
+16:28:44.885 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [void insertDb() , void download() , void exit() , void jump() , void toSub() , void excuteGsonRequest() , void btn_string_request() , void customClick() , void loadImage() , void toDownlaod() , void queryNote() , void vg_title() ]
+16:28:44.891 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void onItemClicked(java.lang.String) ]
+16:28:44.893 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ItemSelectHandler: [public void onItemSelected(boolean, java.lang.String) ]
+16:28:44.895 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [public void lsv_contacts(java.lang.String) ]
+16:28:44.898 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [app_name, title, app_name, defaultLabel]
+16:28:44.901 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [htmlCotent]
+16:28:44.903 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimension, fontsize]
+16:28:44.905 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontsizePix, fontSizeDimensionPix]
+16:28:44.908 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimensionPix2, fontsizePix2]
+16:28:44.910 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [someColor, backgroundColor]
+16:28:44.912 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [msg, title]
+16:28:44.913 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [manager]
+16:28:44.914 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [application, application, application, application, application, application, application, application]
+16:28:44.916 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+16:28:44.919 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuItemHandler: [menuSettings]
+16:28:44.921 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [void onMenuSettings() ]
+16:28:44.923 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context, activity, service, myActivity, context]
+16:28:44.926 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with NonConfigurationInstanceHandler: [manager]
+16:28:44.927 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [user, user]
+16:28:44.928 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [comeFrom, comeFromParam]
+16:28:44.929 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with BeforeTextChangeHandler: [void beforeTextChange(android.widget.TextView, java.lang.CharSequence, int, int, int) ]
+16:28:44.931 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [void onTextChange(android.widget.TextView, java.lang.CharSequence) , void onTextChange(android.widget.TextView) , void onTextChange(java.lang.CharSequence, android.widget.TextView, int, int, int) , void onTextChange() ]
+16:28:44.933 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterTextChangeHandler: [void afterTextChange(android.text.Editable, android.widget.TextView) ]
+16:28:44.936 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarProgressChangeHandler: [void onProgressChanged(android.widget.SeekBar, int, boolean) ]
+16:28:44.939 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStartHandler: [void onStartTrackingTouch(android.widget.SeekBar) ]
+16:28:44.941 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStopHandler: [void onStopTrackingTouch(android.widget.SeekBar) ]
+16:28:44.943 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ReceiverHandler: [protected void onBroadcastReceiverAction_Click(android.content.Intent) ]
+16:28:44.947 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with OnActivityResultHandler: [void onActivityResultDetails(int) , void onActivityResult(int, android.content.Intent) ]
+16:28:44.949 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [resultNumber]
+16:28:44.950 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [void afterInject() , void afterInject() ]
+16:28:44.951 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterExtrasHandler: [void afterExtras() ]
+16:28:44.952 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void afterViews() , void afterViews() , void init() , void afterViews() , void afterViews_1() , void afterViews() , void afterViews() ]
+16:28:44.953 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [void showListView() , void refreshInfo(java.lang.String) , void excuteInUIThread() , void showWebViewContent(java.lang.String) ]
+16:28:44.954 [Worker-5] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [void loadDataFromDB() , void someSequentialBackgroundTask(int) , void doInBackgroundAfterTwoSeconds() , void queryNote() ]
+16:28:44.964 [Worker-5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+16:28:44.965 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+16:28:44.985 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EActivityHandler: [com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+16:28:45.12 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+16:28:45.13 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+16:28:45.15 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+16:28:45.17 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:28:45.21 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+16:28:45.23 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+16:28:45.26 [Worker-5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+16:28:45.27 [Worker-5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+16:28:45.59 [Worker-5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 15
+16:28:45.63 [Worker-5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+16:28:45.65 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_
+16:28:45.90 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SimpleActivity_
+16:28:45.119 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.StringRequestActivity_
+16:28:45.130 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SubActivity_
+16:28:45.140 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.DemoApplication_
+16:28:45.145 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.MainActivity_
+16:28:45.162 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.CustomButton_
+16:28:45.171 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.TitleWithSubtitle_
+16:28:45.179 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.fragment.SimpleFragment_
+16:28:45.207 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.adapter.ListViewAdapter_
+16:28:45.214 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.provider.PictureContentProvider_
+16:28:45.220 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.DownloadService_
+16:28:45.226 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.ReptileService_
+16:28:45.233 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.bean.User_
+16:28:45.259 [Worker-5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver_
+16:28:45.265 [Worker-5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 605 ms], [Generate Sources = 205 ms], [Extract Annotations = 133 ms], [Process Annotations = 104 ms], [Validate Annotations = 99 ms], [Find R Classes = 46 ms], [Extract Manifest = 7 ms], 
+16:28:45.266 [Worker-5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+16:32:42.285 [Worker-10] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.2 with options {phase=BUILD}
+16:32:42.286 [Worker-10] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 37 annotations on 3 elements
+16:32:42.301 [Worker-10] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder D:\Github\AndroidFrame\AndroidBaseCoreDemo: D:\Github\AndroidFrame\AndroidBaseCoreDemo\AndroidManifest.xml
+16:32:42.303 [Worker-10] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.lifeix.androidbasecoredemo, componentQualifiedNames=[com.lifeix.androidbasecoredemo.MainActivity_, com.lifeix.androidbasecoredemo.activity.SimpleActivity_, com.lifeix.androidbasecoredemo.activity.SubActivity_, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_, com.lifeix.androidbasecoredemo.activity.StringRequestActivity_, com.lifeix.androidbasecoredemo.service.ReptileService_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=com.lifeix.androidbasecoredemo.DemoApplication_, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=21]
+16:32:42.304 [Worker-10] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.lifeix.androidbasecoredemo.R
+16:32:42.309 [Worker-10] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+16:32:42.315 [Worker-10] INFO  o.a.p.ModelValidator:42 - Validating elements
+16:32:42.316 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+16:32:42.317 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:32:42.317 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [txtLabel, lsvContacts, imageView, seekBar, textView, btn_custom, button]
+16:32:42.321 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with FromHtmlHandler: [textView]
+16:32:42.322 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [void jump() , void vg_title() , void loadImage() , void queryNote() , void toDownlaod() , void customClick() , void insertDb() , void toSub() ]
+16:32:42.324 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void onItemClicked(java.lang.String) ]
+16:32:42.324 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ItemSelectHandler: [public void onItemSelected(boolean, java.lang.String) ]
+16:32:42.325 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [public void lsv_contacts(java.lang.String) ]
+16:32:42.326 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [app_name, title, app_name]
+16:32:42.327 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [htmlCotent]
+16:32:42.327 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimension, fontsize]
+16:32:42.328 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimensionPix, fontsizePix]
+16:32:42.329 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontSizeDimensionPix2, fontsizePix2]
+16:32:42.329 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [someColor, backgroundColor]
+16:32:42.330 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [msg, title]
+16:32:42.331 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [manager]
+16:32:42.334 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [application, application, application]
+16:32:42.334 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+16:32:42.335 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuItemHandler: [menuSettings]
+16:32:42.335 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [void onMenuSettings() ]
+16:32:42.336 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with NonConfigurationInstanceHandler: [manager]
+16:32:42.336 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [user, user]
+16:32:42.336 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [comeFrom, comeFromParam]
+16:32:42.337 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with BeforeTextChangeHandler: [void beforeTextChange(android.widget.TextView, java.lang.CharSequence, int, int, int) ]
+16:32:42.337 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [void onTextChange() , void onTextChange(java.lang.CharSequence, android.widget.TextView, int, int, int) , void onTextChange(android.widget.TextView, java.lang.CharSequence) , void onTextChange(android.widget.TextView) ]
+16:32:42.338 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterTextChangeHandler: [void afterTextChange(android.text.Editable, android.widget.TextView) ]
+16:32:42.338 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarProgressChangeHandler: [void onProgressChanged(android.widget.SeekBar, int, boolean) ]
+16:32:42.339 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStartHandler: [void onStartTrackingTouch(android.widget.SeekBar) ]
+16:32:42.339 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStopHandler: [void onStopTrackingTouch(android.widget.SeekBar) ]
+16:32:42.340 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ReceiverHandler: [protected void onBroadcastReceiverAction_Click(android.content.Intent) ]
+16:32:42.340 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with OnActivityResultHandler: [void onActivityResultDetails(int) , void onActivityResult(int, android.content.Intent) ]
+16:32:42.341 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [resultNumber]
+16:32:42.341 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [void afterInject() , void afterInject() ]
+16:32:42.342 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterExtrasHandler: [void afterExtras() ]
+16:32:42.342 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void init() , void afterViews() , void afterViews_1() , void afterViews() ]
+16:32:42.342 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [void excuteInUIThread() , void showListView() ]
+16:32:42.343 [Worker-10] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [void queryNote() , void loadDataFromDB() , void doInBackgroundAfterTwoSeconds() , void someSequentialBackgroundTask(int) ]
+16:32:42.343 [Worker-10] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+16:32:42.344 [Worker-10] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EActivityHandler: [com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+16:32:42.346 [Worker-10] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+16:32:42.347 [Worker-10] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+16:32:42.352 [Worker-10] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+16:32:42.353 [Worker-10] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+16:32:42.353 [Worker-10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SimpleActivity_
+16:32:42.376 [Worker-10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.MainActivity_
+16:32:42.388 [Worker-10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.fragment.SimpleFragment_
+16:32:42.397 [Worker-10] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 111 ms], [Generate Sources = 45 ms], [Validate Annotations = 28 ms], [Extract Annotations = 13 ms], [Find R Classes = 11 ms], [Process Annotations = 9 ms], [Extract Manifest = 3 ms], 
+16:32:42.397 [Worker-10] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+10:10:54.304 [Worker-3] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.2 with options {phase=BUILD}
+10:10:54.416 [Worker-3] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 45 annotations on 48 elements
+10:10:54.588 [Worker-3] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder D:\Github\AndroidFrame\AndroidBaseCoreDemo: D:\Github\AndroidFrame\AndroidBaseCoreDemo\AndroidManifest.xml
+10:10:54.592 [Worker-3] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.lifeix.androidbasecoredemo, componentQualifiedNames=[com.lifeix.androidbasecoredemo.MainActivity_, com.lifeix.androidbasecoredemo.activity.SimpleActivity_, com.lifeix.androidbasecoredemo.activity.SubActivity_, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_, com.lifeix.androidbasecoredemo.activity.StringRequestActivity_, com.lifeix.androidbasecoredemo.service.ReptileService_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE], applicationClassName=com.lifeix.androidbasecoredemo.DemoApplication_, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=21]
+10:10:54.593 [Worker-3] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.lifeix.androidbasecoredemo.R
+10:10:54.623 [Worker-3] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+10:10:54.660 [Worker-3] INFO  o.a.p.ModelValidator:42 - Validating elements
+10:10:54.661 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+10:10:54.663 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+10:10:54.667 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+10:10:54.668 [Worker-3] WARN  o.a.h.AnnotationHelper:126 - The component PictureContentProvider_ is not registered in the AndroidManifest.xml file.
+10:10:54.668 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+10:10:54.669 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+10:10:54.670 [Worker-3] WARN  o.a.h.AnnotationHelper:126 - The component DownloadService_ is not registered in the AndroidManifest.xml file.
+10:10:54.670 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+10:10:54.672 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+10:10:54.674 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+10:10:54.676 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+10:10:54.677 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [button, title, lsvContacts, seekBar, webView, textView, textView, btn_custom, subtitle, txtLabel, imageView]
+10:10:54.688 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with FromHtmlHandler: [textView]
+10:10:54.690 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [void toDownlaod() , void insertDb() , void exit() , void customClick() , void queryNote() , void loadImage() , void jump() , void vg_title() , void btn_string_request() , void excuteGsonRequest() , void toSub() , void download() ]
+10:10:54.696 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [public void onItemClicked(java.lang.String) ]
+10:10:54.698 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ItemSelectHandler: [public void onItemSelected(boolean, java.lang.String) ]
+10:10:54.700 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [public void lsv_contacts(java.lang.String) ]
+10:10:54.703 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [defaultLabel, app_name, title, app_name]
+10:10:54.707 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [htmlCotent]
+10:10:54.709 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontsize, fontSizeDimension]
+10:10:54.711 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontsizePix, fontSizeDimensionPix]
+10:10:54.713 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [fontsizePix2, fontSizeDimensionPix2]
+10:10:54.715 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ResHandler: [backgroundColor, someColor]
+10:10:54.717 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [title, msg]
+10:10:54.718 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [manager]
+10:10:54.719 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [application, application, application, application, application, application, application, application]
+10:10:54.721 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.lifeix.androidbasecoredemo.activity.SimpleActivity]
+10:10:54.723 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuItemHandler: [menuSettings]
+10:10:54.725 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [void onMenuSettings() ]
+10:10:54.727 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context, myActivity, context, activity, service]
+10:10:54.729 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with NonConfigurationInstanceHandler: [manager]
+10:10:54.730 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [user, user]
+10:10:54.731 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [comeFromParam, comeFrom]
+10:10:54.732 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with BeforeTextChangeHandler: [void beforeTextChange(android.widget.TextView, java.lang.CharSequence, int, int, int) ]
+10:10:54.734 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [void onTextChange(android.widget.TextView, java.lang.CharSequence) , void onTextChange(android.widget.TextView) , void onTextChange() , void onTextChange(java.lang.CharSequence, android.widget.TextView, int, int, int) ]
+10:10:54.736 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with AfterTextChangeHandler: [void afterTextChange(android.text.Editable, android.widget.TextView) ]
+10:10:54.738 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarProgressChangeHandler: [void onProgressChanged(android.widget.SeekBar, int, boolean) ]
+10:10:54.740 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStartHandler: [void onStartTrackingTouch(android.widget.SeekBar) ]
+10:10:54.742 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with SeekBarTouchStopHandler: [void onStopTrackingTouch(android.widget.SeekBar) ]
+10:10:54.745 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ReceiverHandler: [protected void onBroadcastReceiverAction_Click(android.content.Intent) ]
+10:10:54.748 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with OnActivityResultHandler: [void onActivityResult(int, android.content.Intent) , void onActivityResultDetails(int) ]
+10:10:54.750 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with ExtraHandler: [resultNumber]
+10:10:54.752 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [void afterInject() , void afterInject() ]
+10:10:54.753 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with AfterExtrasHandler: [void afterExtras() ]
+10:10:54.754 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void afterViews() , void afterViews() , void afterViews_1() , void afterViews() , void afterViews() , void init() , void afterViews() ]
+10:10:54.755 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [void excuteInUIThread() , void showListView() , void showWebViewContent(java.lang.String) , void refreshInfo(java.lang.String) ]
+10:10:54.756 [Worker-3] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [void doInBackgroundAfterTwoSeconds() , void someSequentialBackgroundTask(int) , void queryNote() , void loadDataFromDB() ]
+10:10:54.767 [Worker-3] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+10:10:54.768 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EApplicationHandler: [com.lifeix.androidbasecoredemo.DemoApplication]
+10:10:54.781 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EActivityHandler: [com.lifeix.androidbasecoredemo.activity.NetSimpleActivity, com.lifeix.androidbasecoredemo.activity.StringRequestActivity, com.lifeix.androidbasecoredemo.MainActivity, com.lifeix.androidbasecoredemo.activity.SimpleActivity, com.lifeix.androidbasecoredemo.activity.SubActivity]
+10:10:54.804 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EProviderHandler: [com.lifeix.androidbasecoredemo.provider.PictureContentProvider]
+10:10:54.805 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EReceiverHandler: [com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver]
+10:10:54.807 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EServiceHandler: [com.lifeix.androidbasecoredemo.service.DownloadService, com.lifeix.androidbasecoredemo.service.ReptileService]
+10:10:54.809 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.lifeix.androidbasecoredemo.fragment.SimpleFragment]
+10:10:54.813 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EBeanHandler: [com.lifeix.androidbasecoredemo.adapter.ListViewAdapter, com.lifeix.androidbasecoredemo.bean.User]
+10:10:54.815 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewGroupHandler: [com.lifeix.androidbasecoredemo.view.TitleWithSubtitle]
+10:10:54.819 [Worker-3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EViewHandler: [com.lifeix.androidbasecoredemo.view.CustomButton]
+10:10:54.820 [Worker-3] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+10:10:54.852 [Worker-3] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 15
+10:10:54.854 [Worker-3] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+10:10:54.857 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.NetSimpleActivity_
+10:10:54.892 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SimpleActivity_
+10:10:54.917 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.StringRequestActivity_
+10:10:54.926 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.activity.SubActivity_
+10:10:54.935 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.DemoApplication_
+10:10:54.939 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.MainActivity_
+10:10:54.952 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.CustomButton_
+10:10:54.960 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.view.TitleWithSubtitle_
+10:10:54.966 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.fragment.SimpleFragment_
+10:10:54.982 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.adapter.ListViewAdapter_
+10:10:54.988 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.provider.PictureContentProvider_
+10:10:54.992 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.DownloadService_
+10:10:54.997 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.service.ReptileService_
+10:10:55.0 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.bean.User_
+10:10:55.4 [Worker-3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.lifeix.androidbasecoredemo.broadcastreceiver.PushMsgBroadcastReceiver_
+10:10:55.7 [Worker-3] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 591 ms], [Extract Annotations = 169 ms], [Generate Sources = 155 ms], [Validate Annotations = 97 ms], [Process Annotations = 95 ms], [Find R Classes = 57 ms], [Extract Manifest = 6 ms], 
+10:10:55.7 [Worker-3] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
